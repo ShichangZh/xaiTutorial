@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="A Wholistic Look at the State-of-the-art of Explainable AI for Text">
+  <meta name="keywords" content="XAI, Explainable AI, NLP, Natural Language Processing">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explain AI Models: Methods and Opportunities in Explainable AI, Data-Centric AI, and Mechanistic Interpretability</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="index.html">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+      <a class="navbar-item" href="biographies.html">
+        Presenters
+      </a>
+      <a class="navbar-item" href="references.html">
+        References
+      </a>
+    </div>
+  </div>
+</nav>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column has-text-centered">
+        <h1 class="title is-3 publication-title">Explain AI Models: Methods and Opportunities in<br>Explainable AI, Data-Centric AI, and Mechanistic Interpretability</h1>
+        <div class="is-size-5 publication-authors">
+          <p>NeurIPS 2025 Tutorial</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Speakers. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-centered">
+          <div class="columns is-centered">
+            <div class="column">
+              <div class="content">
+                <img src="imgs/shichang.jpg" alt="Shichang Zhang" style="border-radius: 50%; width: 150px; height: 150px;">
+                <p><a href="https://shichangzh.github.io/">Shichang Zhang</a><br>Harvard University</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="imgs/hima.jpg" alt="Hima Lakkaraju" style="border-radius: 50%; width: 150px; height: 150px;">
+                <p><a href="https://himalakkaraju.github.io/">Hima Lakkaraju</a><br>Harvard University</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="imgs/julius.jpg" alt="Julius Adebayo" style="border-radius: 50%; width: 150px; height: 150px;">
+                <p><a href="https://juliusadebayo.com/">Julius Adebayo</a><br>Guide Labs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Speakers. -->
+
+    <div class="column has-text-centered">
+      <div class="publication-links">
+        <!-- Slides Link. -->
+        <span class="link-block">
+          <a href="" class="external-link button is-normal is-rounded is-dark" disabled>
+            <span class="icon">
+                <i class="fas fa-file-powerpoint"></i>
+            </span>
+            <span>Slides</span>
+          </a>
+        </span>
+        <!-- Recording Link. -->
+        <span class="link-block">
+          <a href="" class="external-link button is-normal is-rounded is-dark" disabled>
+            <span class="icon">
+                <i class="fas fa-video"></i>
+            </span>
+            <span>Recording</span>
+          </a>
+        </span>
+        <!-- Previous Version Link. -->
+        <span class="link-block">
+          <a href="https://explainml-tutorial.github.io/neurips20" class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+                <i class="fas fa-arrow-left"></i>
+            </span>
+            <span>Previous Version</span>
+          </a>
+        </span>
+      </div>
+    </div>
+
+    <!-- Overview. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            Understanding AI system behavior has become critical for safety, trust, and effective deployment across diverse applications. Three major research communities have emerged to address this challenge through interpretability methods: Explainable AI focuses on feature attribution to understand which input features drive model decisions; Data-Centric AI emphasizes data attribution to analyze how training examples shape model behavior; and Mechanistic Interpretability examines component attribution to understand how internal model components contribute to outputs. These three branches share the goal of better understanding AI systems across different aspects and differ primarily in their perspectives rather than techniques. This tutorial provides comprehensive coverage of core algorithms and methods across all three paradigms, including feature attribution methods (e.g., SHAP, Integrated Gradients, LIME), data attribution methods (e.g., Influence Functions, TracIn, Datamodels), and component attribution methods (e.g., Activation Patching, Causal Tracing, Subnetwork pruning). We present a unified framework demonstrating that these methods share fundamental techniques such as perturbations, gradients, and local linear approximations. Furthermore, we highlight promising future research directions in both interpretability research and in AI more broadly, with applications in model editing, steering, and regulation. The tutorial also highlights practical industry applications of AI interpretability, showcasing how these techniques benefits general AI deployment. Through hands-on algorithms, real-world industry case studies from tech companies, and practical guidance for deploying attribution methods in production systems, attendees will gain both deep technical understanding of state-of-the-art algorithms and practical skills to apply attribution methods effectively in AI applications.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Overview. -->
+
+    <!-- Schedule. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Schedule</h2>
+        <div class="content has-text-justified">
+          <p>Part I: Foundations and Motivation (20 minutes)</p>
+          <p>Part II: Technical Deep Dive (70 minutes)</p>
+          <p>Break (10 minutes)</p>
+          <p>Part III: Unified Framework and Future Directions (20 minutes)</p>
+          <p>Part IV: Practical Benefits and Industry Applications (30 minutes)</p>
+        </div>
+      </div>
+    </div>
+    <!--/ Schedule. -->
+
+    <!-- Citation. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Citation</h2>
+        <div class="content has-text-justified">
+          <p>If you find this tutorial useful, please cite:</p>
+          <pre style="background-color: #f5f5f5; padding: 1rem; border-radius: 4px; text-align: left; overflow-x: auto;">
+@misc{zhang2025xai,
+    title={Explain AI Models: Methods and Opportunities in Explainable AI, Data-Centric AI, and Mechanistic Interpretability},
+    author={Zhang, Shichang and Lakkaraju, Hima and Adebayo, Julius},
+    year={2025},
+    howpublished={NeurIPS 2025 Tutorial},
+    url={https://your-tutorial-website.com}
+}</pre>
+        </div>
+      </div>
+    </div>
+    <!--/ Citation. -->
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
