@@ -17,6 +17,10 @@ A comprehensive tutorial covering three major interpretability paradigms:
 - [Hima Lakkaraju](https://himalakkaraju.github.io/) - Harvard University
 - [Julius Adebayo](https://juliusadebayo.com/) - Guide Labs
 
+## Acknowledgments
+
+This website template is borrowed from [Nerfies](https://github.com/nerfies/nerfies.github.io) by Keunhong Park et al. We thank the authors for making their website template available under the Creative Commons license.
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
