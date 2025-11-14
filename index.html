@@ -92,8 +92,8 @@
             </div>
             <div class="column">
               <div class="content">
-                <img src="imgs/hima.jpg" alt="Hima Lakkaraju" style="border-radius: 50%; width: 150px; height: 150px;">
-                <p><a href="https://himalakkaraju.github.io/">Hima Lakkaraju</a><br>Harvard University</p>
+                <img src="imgs/hima.jpg" alt="Himabindu Lakkaraju" style="border-radius: 50%; width: 150px; height: 150px;">
+                <p><a href="https://himalakkaraju.github.io/">Himabindu Lakkaraju</a><br>Harvard University</p>
               </div>
             </div>
             <div class="column">
@@ -146,7 +146,7 @@
         <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
           <p>
-            Understanding AI system behavior has become critical for safety, trust, and effective deployment across diverse applications. Three major research communities have emerged to address this challenge through interpretability methods: Explainable AI focuses on feature attribution to understand which input features drive model decisions; Data-Centric AI emphasizes data attribution to analyze how training examples shape model behavior; and Mechanistic Interpretability examines component attribution to understand how internal model components contribute to outputs. These three branches share the goal of better understanding AI systems across different aspects and differ primarily in their perspectives rather than techniques. This tutorial provides comprehensive coverage of core algorithms and methods across all three paradigms, including feature attribution methods (e.g., SHAP, Integrated Gradients, LIME), data attribution methods (e.g., Influence Functions, TracIn, Datamodels), and component attribution methods (e.g., Activation Patching, Causal Tracing, Subnetwork pruning). We present a unified framework demonstrating that these methods share fundamental techniques such as perturbations, gradients, and local linear approximations. Furthermore, we highlight promising future research directions in both interpretability research and in AI more broadly, with applications in model editing, steering, and regulation. The tutorial also highlights practical industry applications of AI interpretability, showcasing how these techniques benefits general AI deployment. Through hands-on algorithms, real-world industry case studies from tech companies, and practical guidance for deploying attribution methods in production systems, attendees will gain both deep technical understanding of state-of-the-art algorithms and practical skills to apply attribution methods effectively in AI applications.
+              Understanding AI system behavior has become critical for safety, trust, and effective deployment across diverse applications. Three major research communities have emerged to address this challenge through interpretability methods: Explainable AI focuses on feature attribution to understand which input features drive model decisions; Data-Centric AI emphasizes data attribution to analyze how training examples shape model behavior; and Mechanistic Interpretability examines component attribution to understand how internal model components contribute to outputs. These three branches share the goal of better understanding AI systems across different aspects and differ primarily in their perspectives rather than techniques. This tutorial begins with foundational concepts and historical context, providing essential background on why explainability matters and how the field has evolved since its early days. The first technical deep dive covers post hoc explanation methods, data-centric explanation techniques, mechanistic interpretability approaches, and presents a unified framework demonstrating that these methods share fundamental techniques such as perturbations, gradients, and local linear approximations. The second technical deep dive explores inherently interpretable models, clarifying concepts like reasoning (chain-of-thought) LLMs and self-explanatory LLMs in the context of explainability, and techniques for building inherently interpretable LLMs. We also showcase open source tools that make these methods accessible to practitioners. Furthermore, we highlight promising future research directions in interpretability research and the induced future directions in AI more broadly, with applications in model editing, steering, and regulation. Through comprehensive coverage of algorithms, real-world case studies, and practical guidance, attendees will gain both a deep technical understanding of state-of-the-art methods and practical skills to apply interpretability techniques effectively in AI applications.
           </p>
         </div>
       </div>
@@ -158,11 +158,28 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Schedule</h2>
         <div class="content has-text-justified">
-          <p>Part I: Foundations and Motivation (20 minutes)</p>
-          <p>Part II: Technical Deep Dive (70 minutes)</p>
-          <p>Break (10 minutes)</p>
-          <p>Part III: Unified Framework and Future Directions (20 minutes)</p>
-          <p>Part IV: Practical Benefits and Industry Applications (30 minutes)</p>
+          <ul>
+            <li><strong>Introduction: Why Explainability</strong> (5 minutes)</li>
+            <li><strong>History and Pre-2015 Research</strong> (10 minutes)</li>
+            <li><strong>Technical Deep Dive 1</strong> (50 minutes)
+              <ul>
+                <li>Post hoc Explanation</li>
+                <li>Data-Centric Explanation</li>
+                <li>Mechanistic Interpretability</li>
+                <li>A Unified View of Explainability</li>
+              </ul>
+            </li>
+            <li><strong>Break and Q&A</strong> (15 minutes)</li>
+            <li><strong>Technical Deep Dive 2</strong> (40 minutes)
+              <ul>
+                <li>Inherently Interpretable Models</li>
+                <li>Reasoning (Chain-Of-Thought) LLMs And "Self-Explanatory" LLMs</li>
+                <li>Inherently Interpretable LLMs</li>
+              </ul>
+            </li>
+            <li><strong>Open Source Tools</strong> (10 minutes)</li>
+            <li><strong>Conclusion and Future Directions</strong> (10 minutes)</li>
+          </ul>
         </div>
       </div>
     </div>
